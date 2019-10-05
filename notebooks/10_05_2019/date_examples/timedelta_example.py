@@ -4,7 +4,7 @@ https://docs.python.org/2/library/datetime.html#timedelta-objects
 
 Signature::
 
-    datetime.timedelta([days[, seconds[, microseconds[, milliseconds[, minutes[, hours[, weeks]]]]]]])
+    date_stuff.timedelta([days[, seconds[, microseconds[, milliseconds[, minutes[, hours[, weeks]]]]]]])
         * Note that all arguments are "optional", and default to 0
 
 

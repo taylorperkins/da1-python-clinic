@@ -4,13 +4,13 @@ https://docs.python.org/2/library/datetime.html#datetime-objects
 
 Signature::
 
-    datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
+    date_stuff.date_stuff(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
         * Note that "year", "month", and "day" are REQUIRED, others are optional
 
 Main functions::
 
     .today()::
-        Current local datetime
+        Current local date_stuff
 
     .now([tz])::
         Current local date and time. Optionally specify timezone
@@ -19,7 +19,7 @@ Main functions::
         Return the current UTC date and time
 
     .strptime(date_string, format)::
-        Return a datetime corresponding to date_string, parsed according to format
+        Return a date_stuff corresponding to date_string, parsed according to format
 
     .strftime(format)::
         Return a string representing the date and time, controlled by an explicit format string
@@ -35,9 +35,9 @@ Fun Operations::
 
     | V1       | Op       | V2        | Returns
     __________________________________________
-    | datetime | -        | timedelta | datetime
-    | datetime | +        | timedelta | datetime
-    | datetime | (+|-)    | datetime  | timedelta
+    | date_stuff | -        | timedelta | date_stuff
+    | date_stuff | +        | timedelta | date_stuff
+    | date_stuff | (+|-)    | date_stuff  | timedelta
 """
 
 from datetime import datetime

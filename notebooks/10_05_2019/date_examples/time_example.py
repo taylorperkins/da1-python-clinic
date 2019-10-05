@@ -4,7 +4,7 @@ https://docs.python.org/2/library/datetime.html#time-objects
 
 Signature::
 
-    datetime.time([hour[, minute[, second[, microsecond[, tzinfo]]]]])
+    date_stuff.time([hour[, minute[, second[, microsecond[, tzinfo]]]]])
         * Note that all arguments are optional
 
 

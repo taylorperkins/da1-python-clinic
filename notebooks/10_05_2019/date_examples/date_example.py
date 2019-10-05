@@ -4,7 +4,7 @@ https://docs.python.org/2/library/datetime.html#date-objects
 
 Signature::
 
-    datetime.date(year, month, day)
+    date_stuff.date(year, month, day)
         * Note that all arguments are "required", and it doesnt know how to handle times
 
 
